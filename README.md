@@ -6,7 +6,7 @@ Biblioteca de *skills* para profesionales sanitarios que trabajan con un agente 
 
 Una **skill** es un archivo de texto con instrucciones para que el agente haga una tarea concreta siempre de la misma manera. Se parece a un protocolo del servicio: no hay que explicarlo cada vez, basta con pedirlo.
 
-Este repositorio (la carpeta pública donde están publicadas) reúne diez. Una se usa tal cual (`verifica-citas`). Las otras nueve son **configurables**: no traen el estilo ni los datos de otra persona, sino que te hacen unas preguntas, miran tu propio material y te dejan montada **tu** versión.
+Este repositorio (la carpeta pública donde están publicadas) reúne once. Dos se usan tal cual (`verifica-citas` y `lee-tu-whatsapp`). Las otras nueve son **configurables**: no traen el estilo ni los datos de otra persona, sino que te hacen unas preguntas, miran tu propio material y te dejan montada **tu** versión.
 
 ## Para qué sirve
 
@@ -14,7 +14,7 @@ Para las tareas que un médico repite al trabajar con una IA y que conviene hace
 
 ## Por qué es importante
 
-Usar una IA sin método da resultados distintos cada día y deja pasar errores que en medicina cuentan: una cita que no existe, un dato de un paciente donde no debe, un texto que no suena a ti, un aviso enviado a todo un curso. Estas skills fijan el método y ponen los controles dentro del proceso. Todas se han probado con casos ficticios y se han corregido con los fallos que aparecieron; sus límites están escritos.
+Usar una IA sin método da resultados distintos cada día y deja pasar errores que en medicina cuentan: una cita que no existe, un dato de un paciente donde no debe, un texto que no suena a ti, un aviso enviado a todo un curso. Estas skills fijan el método y ponen los controles dentro del proceso. Todas se han probado (con casos ficticios o en uso real) y se han corregido con los fallos que aparecieron; sus límites están escritos.
 
 ## Las skills
 
@@ -32,6 +32,7 @@ Cada una tiene su propia página con qué es, para qué sirve, por qué importa 
 | [concurso-cierre-charla](skills/concurso-cierre-charla/) | Terminar una charla con un concurso de preguntas | Tu skill de concursos, con tu formato y el archivo para tu plataforma |
 | [vigila-tu-tema](skills/vigila-tu-tema/) | Estar al día de lo que se publica sobre tu tema | Una vigilancia bibliográfica mensual en PubMed con cada referencia comprobada |
 | [opera-tu-campus-virtual](skills/opera-tu-campus-virtual/) | Subir material y preparar tareas en Moodle | Tu skill con las recetas probadas en tu campus |
+| [lee-tu-whatsapp](skills/lee-tu-whatsapp/) | Que el agente resuma chats, busque mensajes y descargue audios de tu WhatsApp para Mac, sin conectarse a tu cuenta ni enviar nada | Resúmenes, búsquedas, audios en Descargas y respuestas en borrador. Se usa tal cual (solo Mac) |
 
 Si no sabes por cuál empezar: `verifica-citas` da resultado el primer día, y `ordena-tu-espacio-de-trabajo` hace que todas las demás funcionen mejor.
 
